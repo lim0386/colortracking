@@ -4,7 +4,8 @@ let r, g, b;
 let osc, playing, midi;
 
 function setup() {
-  createCanvas(640, 480);
+  // createCanvas(640, 480);
+  createCanvas(windowWidth, windowHeight);
   osc = new p5.Oscillator("sine");
   img = createCapture(VIDEO);
   img.hide();
