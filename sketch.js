@@ -14,7 +14,7 @@ function setup() {
 
 function draw() {
   // 0=red, 60=yellow, 120=green, 180=cyan, 240=blue, 300=magenta
-  image(img, 0, 0, 640, 480);
+  image(img, 0, 0, width, height);
 
   colorTracking();
 }
